@@ -1,0 +1,89 @@
+@import url(./normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+html {
+    height: 100%;
+  }
+  
+body{
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    color: azure;
+    display: flex;
+    background: #68EE4F;
+    background: -webkit-linear-gradient(bottom right, #68EE4F, #397ACC);
+    background: -moz-linear-gradient(bottom right, #68EE4F, #397ACC);
+    background: linear-gradient(to top left, #68EE4F, #397ACC);;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.slider{
+    width: 60%;
+    background: black;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
+    box-shadow: 0em 0em 2em 1em #0ff; 
+}
+
+.slider__items{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.slider-options{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__item{
+   height: 60%;
+   padding-bottom: 5%;
+}
+img {
+    width: 100%;
+}
+
+.meme-img{
+   
+}
+#meme-img-1{
+    position: relative;
+z-index: 6;
+}
+
+#meme-img-2{
+    visibility: hidden;
+    z-index: 1;
+}
+#meme-img-3{
+    visibility: hidden;
+}
+#meme-img-4{
+    visibility: hidden;
+}
+#meme-img-5{
+    visibility: hidden;
+}
+#meme-img-6{
+    visibility: hidden;
+}
+
+#meme-txt-1{
+
+}
+#meme-txt-1{
+    
+}
+#meme-txt-1{
+    
+}

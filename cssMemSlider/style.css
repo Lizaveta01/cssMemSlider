@@ -93,4 +93,18 @@ body{
     outline: 7px solid rgb(255, 255, 255);
 }
 
+/*-----------Add activ to radio-----------*/
+
+#meme-1:target~.radio .meme-btn:first-child,
+#meme-2:target~.radio  .meme-btn:nth-child(2),
+#meme-3:target~.radio  .meme-btn:nth-child(3),
+#meme-4:target~.radio  .meme-btn:nth-child(4),
+#meme-5:target~.radio  .meme-btn:nth-child(5),
+#meme-6:target~.radio  .meme-btn:nth-child(6){
+    outline: 3px solid #0ff;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 20px;
+    outline-offset: -16px;
+}
 

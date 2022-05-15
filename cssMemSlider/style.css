@@ -58,26 +58,26 @@ body{
 img{
     border-radius: 0.3em;
 }
+p {
+    
+}
 .item-meme img {
     max-width: 100%;
     max-height: 100%;
 }
-
+#meme2 img{
+    object-fit: cover;
+}
 .description{
     margin-top: 10px;
     max-width: 80%;
     transition: text-align 0.5s ease, margin 0.5s ease;
+    cursor: pointer;
 }
 
-.title-1 {
-    opacity: 1;
-}
-.title-2, .title-3, .title-4, .title-5, .title-6 {
-    opacity: 0;
-}
 /* ------------------Radio------------------------- */
 .radio{
-    width: 100%;
+    width: auto;
     text-align: right;
     transform: translate(-10px, -100%);
 }
@@ -153,4 +153,16 @@ img{
 
 #meme-6:target~.slides {
     transform: translateX(-500%)
+}
+
+@media screen and (max-width: 768px){
+    .description {
+        transform: translate(0px, 160%);
+        font-size: 0.8em;
+    }
+    .radio{
+        width: 100%;
+        text-align: center;
+        transform: translate(-10px, -80%);
+    }
 }

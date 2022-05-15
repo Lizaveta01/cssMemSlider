@@ -105,6 +105,29 @@ body{
     margin-left: -10px;
     margin-right: -10px;
     padding: 20px;
-    outline-offset: -16px;
+    outline-offset: -14px;
 }
 
+#meme-1:target~.slides {
+    transform: translateX(0)
+}
+
+#meme-2:target~.slides {
+    transform: translateX(-100%)
+}
+
+#meme-3:target~.slides {
+    transform: translateX(-200%)
+}
+
+#meme-4:target~.slides {
+    transform: translateX(-300%)
+}
+
+#meme-5:target~.slides {
+    transform: translateX(-400%)
+}
+
+#meme-6:target~.slides {
+    transform: translateX(-500%)
+}

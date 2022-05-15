@@ -108,6 +108,26 @@ body{
     outline-offset: -14px;
 }
 
+/*------checked first radio on load page---------------*/
+.meme-btn:first-child{
+    outline: 3px solid #0ff;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 20px;
+    outline-offset: -14px;
+}
+#meme-2:target~.radio  .meme-btn:first-child,
+#meme-3:target~.radio  .meme-btn:first-child,
+#meme-4:target~.radio  .meme-btn:first-child,
+#meme-5:target~.radio  .meme-btn:first-child,
+#meme-6:target~.radio  .meme-btn:first-child{
+    margin: 0;
+    padding: 20px 10px;
+    outline: 7px solid #0ff;
+    outline-offset: -20px;
+}
+
+/*-------------------transition slades--------------*/
 #meme-1:target~.slides {
     transform: translateX(0)
 }
